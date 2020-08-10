@@ -22,13 +22,6 @@ header,form {
   align-items: center;
 }
 
-form input, form button {
-  padding: 0.5rem;
-  font-size: 2rem;
-  border: none;
-  background-color: white;
-}
-
 form button {
   color: #fda085;
   background-color: white;
@@ -39,6 +32,13 @@ form button {
 form button:hover {
   background-color: #fda085;
   color: white;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: white;
 }
 
 .todo-container {
@@ -104,19 +104,16 @@ select {
   appearance: none; 
   outline: none;
   border: none;
+  color: #ff6f47;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
 }
 
 .select {
   margin: 1rem;
   position: relative;
   overflow: hidden;
-}
-
-select {
-  color: #ff6f47;
-  width: 10rem;
-  cursor: pointer;
-  padding: 1rem;
 }
 
 .select::after {
